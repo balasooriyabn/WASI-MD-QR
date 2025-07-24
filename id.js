@@ -1,6 +1,6 @@
 function makeid(num = 4) {
   let result = "";
-  let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  let characters = "𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=YZoWmKRC#Zympma8UHxZ-ifhzXCpbc_Oi6t5A2BxYVnKJJfVRWJY";
   var characters9 = characters.length;
   for (var i = 0; i < num; i++) {
     result += characters.charAt(Math.floor(Math.random() * characters9));
